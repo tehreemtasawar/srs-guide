@@ -4,32 +4,33 @@
 These notes provide a clear and concise guide on *Software Requirement Specification (SRS)*, explaining its purpose, components, and best practices for creating effective SRS documents.  
 
 Whether you're a developer, tester, or just curious about how SRS works, this guide will help you understand:  
-- What an SRS is  
-- Why it matters  
-- How to create one that works for everyone involved in a software project
+- What an SRS is?   
+- Why it matters?     
+- How to create one that works for everyone involved in a software project?  
 
 ## 🔗 Table of Contents 📚
-1. [What is SRS?](#what-is-srs)
-2. [Why is SRS Important?](#why-is-srs-important)
-3. [Parts of SRS](#parts-of-srs)
-   - [Introduction](#introduction)
-   - [Overall Description](#overall-description)
-   - [Functional Requirements](#functional-requirements)
-   - [Non-Functional Requirements](#non-functional-requirements)
-   - [System Diagrams](#system-diagrams)
-   - [External Interfaces](#external-interfaces)
-   - [Assumptions and Dependencies](#assumptions-and-dependencies)
-4. [What Makes a Good SRS?](#what-makes-a-good-srs)
-5. [Common Questions About SRS](#common-questions-about-srs)
-6. [Conclusion](#conclusion)
+1. [ What is SRS?](#-what-is-srs)
+
+2. [Why is SRS Important?](#-why-is-srs-important)
+3. [Parts of SRS](#-parts-of-srs)
+   - [Introduction](#1-introduction)
+   - [Overall Description](#2-overall-description)
+   - [Functional Requirements](#3-functional-requirements)
+   - [Non-Functional Requirements](#4-non-functional-requirements)
+   - [System Diagrams](#5-system-diagrams-)
+   - [External Interfaces](#6-external-interfaces)
+   - [Assumptions and Dependencies](#7-assumptions-and-dependencies)
+4. [What Makes a Good SRS?](#-what-makes-a-good-srs)
+5. [Common Questions About SRS](#-common-questions-about-srs)
+6. [Conclusion](#-conclusion-)
+
 
 ---
 
 ## 🔗 What is SRS?
 
-SRS (Software Requirement Specification) is a document that explains what a software system should do. It clearly defines the software’s purpose, features, and how it should work. It acts like a blueprint for developers, testers, and stakeholders.
-### Example:
-
+SRS (Software Requirement Specification) is a document that explains what a software system should do. It clearly defines the software’s purpose, features, and how it should work. It acts like a blueprint for developers, testers, and stakeholders.    
+ </br>**Example:**  
 Imagine you want to build an online library system. An SRS will tell you:
 
 - *What features should be in the system?* (e.g., book search, borrowing)
@@ -101,10 +102,10 @@ Functional requirements specify what the system must do to fulfill its intended 
 
 ### 5. System Diagrams 🖼
 
-#### 📌 Use Case Diagram:
+**📌 Use Case Diagram:**  
 Shows how users interact with the system.
 
-#### Description of Use Case Diagram:
+**Description of Use Case Diagram:**
 
 - **Students:**
   - Can search for books.
@@ -140,14 +141,14 @@ Shows how users interact with the system.
 
 ### 7. Assumptions and Dependencies
 
-#### *Assumptions (What we assume to be true):*
+**Assumptions (What we assume to be true):**  
 It includes the things expected to be true.
-#### Example:
-- Students will have basic computer knowledge. 💻
-- The library will have stable internet access. 🌐
-- Librarians will be trained to use the system.
+- **Example:**
+  - Students will have basic computer knowledge. 💻
+  - The library will have stable internet access. 🌐
+  - Librarians will be trained to use the system.
 
-#### Dependencies (What the system relies on):
+**Dependencies (What the system relies on):**  
 It includes the things our system relies on.
 - The system depends on a working database to store book records. 💾
 - It requires a Windows operating system. 🖥
@@ -172,9 +173,17 @@ It includes the things our system relies on.
   - Testing is based on the Software Requirement Specification (SRS) because the SRS defines what the software is supposed to do. It outlines the requirements, features, and functions that the software must meet. By testing based on the SRS, we can make sure the software works as expected and fulfills all the requirements outlined in the document. If the software meets the specifications in the SRS, it means it's doing its job correctly.
 
 - *What if SRS misses something?*
-  - ❌ The system may not fulfill user needs, leading to dissatisfaction.
+  - ❌ The system may not fulfill user needs, leading to dissatisfaction.  
 
-  
+- *Who is responsible for creating and maintaining the SRS?*
+  - Typically, the business analyst or product manager is responsible for writing the initial SRS, while the development team and stakeholders ensure it is updated as the project evolves.
+
+- *What are the consequences of skipping the SRS phase?*
+  - ❌ Skipping the SRS phase can lead to misunderstandings between stakeholders, feature creep, missed requirements, and ultimately project failure.
+
+- *How detailed should an SRS be?*
+  - An SRS should be detailed enough to capture all requirements, but not so detailed that it becomes overwhelming or overly complex. The goal is to be clear, concise, and comprehensive, balancing both high-level needs and specific functionality.
+
 
 ## 🔗 Conclusion 🎯
 
@@ -182,6 +191,6 @@ An SRS is like a map for developers. Writing it clearly ensures that the project
 
 ## License 🛠  
 
-This document is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0) License** – see the [LICENSE](./LICENSE) file for details.  
+This document is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0) License** 
 
-![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)  
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
