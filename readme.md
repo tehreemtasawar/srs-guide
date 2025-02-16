@@ -121,7 +121,7 @@ Shows how users interact with the system.
 📌 **Example:**
  </br>  Below is a use case diagram for an online library management system, showcasing interactions between users and the system.
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240920150847/Use-Case-Diagram-of-Library-Management-System.webp" alt="Use case diagram of online library management system" width="700">
+![](./assets/use-case-diagram.webp)
 
 ### 6. External Interfaces
 
