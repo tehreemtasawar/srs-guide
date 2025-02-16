@@ -1,16 +1,17 @@
-# 🔗 Software Requirement Specification (SRS) 📑
+# srs-guide
+> Detailed guide about creating good Software Requirement Specifications (SRS)
 
-## 🔗 Overview  
 These notes provide a clear and concise guide on *Software Requirement Specification (SRS)*, explaining its purpose, components, and best practices for creating effective SRS documents.  
 
 Whether you're a developer, tester, or just curious about how SRS works, this guide will help you understand:  
+
 - What an SRS is?   
 - Why it matters?     
 - How to create one that works for everyone involved in a software project?  
 
 ## 🔗 Table of Contents 📚
-1. [ What is SRS?](#-what-is-srs)
 
+1. [ What is SRS?](#-what-is-srs)
 2. [Why is SRS Important?](#-why-is-srs-important)
 3. [Parts of SRS](#-parts-of-srs)
    - [Introduction](#1-introduction)
@@ -24,13 +25,11 @@ Whether you're a developer, tester, or just curious about how SRS works, this gu
 5. [Common Questions About SRS](#-common-questions-about-srs)
 6. [Conclusion](#-conclusion-)
 
-
----
-
 ## 🔗 What is SRS?
 
 SRS (Software Requirement Specification) is a document that explains what a software system should do. It clearly defines the software’s purpose, features, and how it should work. It acts like a blueprint for developers, testers, and stakeholders.    
- </br>**Example:**  
+ 
+**Example:**  
 Imagine you want to build an online library system. An SRS will tell you:
 
 - *What features should be in the system?* (e.g., book search, borrowing)
@@ -38,7 +37,7 @@ Imagine you want to build an online library system. An SRS will tell you:
 - *What are the system’s limitations?* (e.g., works only on Windows)
 
 
-## 🔗 Why is SRS Important?
+## Why is SRS Important?
 
 A well-written SRS helps in many ways:
 
@@ -122,10 +121,7 @@ Shows how users interact with the system.
 📌 **Example:**
  </br>  Below is a use case diagram for an online library management system, showcasing interactions between users and the system.
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240920150847/Use-Case-Diagram-of-Library-Management-System.webp" alt="Use case diagram of online library management system" width="700">
-
-
-
+![](./assets/use-case-diagram.webp)
 
 ### 6. External Interfaces
 
