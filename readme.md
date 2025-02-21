@@ -1,4 +1,4 @@
-# 🔗 Software Requirement Specification (SRS) 📑
+# 🔗 SRS Guide
 
 ## 🔗 Overview  
 These notes provide a clear and concise guide on *Software Requirement Specification (SRS)*, explaining its purpose, components, and best practices for creating effective SRS documents.  
@@ -122,8 +122,7 @@ Shows how users interact with the system.
 📌 **Example:**
  </br>  Below is a use case diagram for an online library management system, showcasing interactions between users and the system.
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240920150847/Use-Case-Diagram-of-Library-Management-System.webp" alt="Use case diagram of online library management system" width="700">
-
+![alt text](Use-Case-Diagram-of-Library-Management-System.webp)
 
 
 
@@ -183,7 +182,6 @@ It includes the things our system relies on.
 
 - *How detailed should an SRS be?*
   - An SRS should be detailed enough to capture all requirements, but not so detailed that it becomes overwhelming or overly complex. The goal is to be clear, concise, and comprehensive, balancing both high-level needs and specific functionality.
-
 
 ## 🔗 Conclusion 🎯
 
