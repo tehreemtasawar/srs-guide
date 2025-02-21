@@ -8,7 +8,7 @@ Whether you're a developer, tester, or just curious about how SRS works, this gu
 - Why it matters?     
 - How to create one that works for everyone involved in a software project?  
 
-## 🔗 Table of Contents 📚
+## 🔗 Table of Contents 
 1. [ What is SRS?](#-what-is-srs)
 
 2. [Why is SRS Important?](#-why-is-srs-important)
@@ -58,8 +58,8 @@ Defines why the system is being created.
   
 - *Scope:* </br> Describes what the system will and won’t do.
   - Example:
-    - ✅ The system will allow students to borrow books.
-    - ❌ The system will NOT manage staff salaries.
+    - The system will allow students to borrow books.
+    - The system will NOT manage staff salaries.
   
 - *Definitions:* </br>Explains technical terms used in the document.
   - Example: "Late Fee" means the fine a student must pay if they don’t return a book on time.
@@ -82,11 +82,11 @@ Defines why the system is being created.
 Functional requirements specify what the system must do to fulfill its intended purpose. These are the system’s main features.
 
 - *Example:*
-</br> 1. The system should allow students to search for books by title, author, or genre. 🔍
-</br> 2. The system should allow students to borrow books by scanning a barcode. 📚
-</br> 3. The system should allow students to return books and automatically update records. 🔄
-</br> 4. The system should send a reminder email to students about overdue books. 📧
-</br> 5. The system should allow librarians to add new books to the library catalog. 📖
+</br> 1. The system should allow students to search for books by title, author, or genre. 
+</br> 2. The system should allow students to borrow books by scanning a barcode. 
+</br> 3. The system should allow students to return books and automatically update records. 
+</br> 4. The system should send a reminder email to students about overdue books. 
+</br> 5. The system should allow librarians to add new books to the library catalog. 
 </br> 6. The system should track the number of books borrowed by each student.
 
 ### 4. Non-Functional Requirements
@@ -100,7 +100,7 @@ Functional requirements specify what the system must do to fulfill its intended 
 </br> 4. *Scalability:* The system should be able to scale to accommodate a growing number of books and users.
 </br> 5. *Maintainability:* The system should be easy to update with new features or bug fixes.
 
-### 5. System Diagrams 🖼
+### 5. System Diagrams 
 
 **📌 Use Case Diagram:**  
 Shows how users interact with the system.
@@ -119,7 +119,7 @@ Shows how users interact with the system.
   - Keeps track of all actions between students and books (e.g., loaning, returning, and searching).
 
 
-📌 **Example:**
+**Example:**
  </br>  Below is a use case diagram for an online library management system, showcasing interactions between users and the system.
 
 ![alt text](Use-Case-Diagram-of-Library-Management-System.webp)
@@ -143,13 +143,13 @@ Shows how users interact with the system.
 **Assumptions (What we assume to be true):**  
 It includes the things expected to be true.
 - **Example:**
-  - Students will have basic computer knowledge. 💻
-  - The library will have stable internet access. 🌐
+  - Students will have basic computer knowledge. 
+  - The library will have stable internet access. 
   - Librarians will be trained to use the system.
 
 **Dependencies (What the system relies on):**  
 It includes the things our system relies on.
-- The system depends on a working database to store book records. 💾
+- The system depends on a working database to store book records. 
 - It requires a Windows operating system. 🖥
 - The system relies on a third-party email service to send notifications.
 
@@ -165,25 +165,25 @@ It includes the things our system relies on.
 ## 🔗 Common Questions About SRS
 
 - *What happens if SRS is unclear?*
-  - ❌ Developers may build the wrong system.
-  - ❌ It can cause delays and extra costs.
+  - Developers may build the wrong system.
+  - It can cause delays and extra costs.
 
 - *Why is testing based on SRS?*
   - Testing is based on the Software Requirement Specification (SRS) because the SRS defines what the software is supposed to do. It outlines the requirements, features, and functions that the software must meet. By testing based on the SRS, we can make sure the software works as expected and fulfills all the requirements outlined in the document. If the software meets the specifications in the SRS, it means it's doing its job correctly.
 
 - *What if SRS misses something?*
-  - ❌ The system may not fulfill user needs, leading to dissatisfaction.  
+  - The system may not fulfill user needs, leading to dissatisfaction.  
 
 - *Who is responsible for creating and maintaining the SRS?*
   - Typically, the business analyst or product manager is responsible for writing the initial SRS, while the development team and stakeholders ensure it is updated as the project evolves.
 
 - *What are the consequences of skipping the SRS phase?*
-  - ❌ Skipping the SRS phase can lead to misunderstandings between stakeholders, feature creep, missed requirements, and ultimately project failure.
+  - Skipping the SRS phase can lead to misunderstandings between stakeholders, feature creep, missed requirements, and ultimately project failure.
 
 - *How detailed should an SRS be?*
   - An SRS should be detailed enough to capture all requirements, but not so detailed that it becomes overwhelming or overly complex. The goal is to be clear, concise, and comprehensive, balancing both high-level needs and specific functionality.
 
-## 🔗 Conclusion 🎯
+## 🔗 Conclusion 
 
 An SRS is like a map for developers. Writing it clearly ensures that the project succeeds and meets the user’s needs. It serves as a guideline for the entire development process, ensuring that both developers and testers are on the same page. By creating a well-detailed and precise SRS, you can minimize the risk of misunderstandings, delays, and costly rework.
 
